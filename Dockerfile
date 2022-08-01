@@ -11,7 +11,5 @@ RUN cd /usr/local/bin && \
     mv argocd-repo-server _argocd-repo-server && \
     mv argocd-repo-server-wrapper argocd-repo-server && \
     mv helm _helm && \
-    mv helm2 _helm2 && \
-    mv helm-sops helm && \
-    ln helm helm2
+    mv helm-sops helm
 USER argocd
